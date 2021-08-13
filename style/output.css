@@ -47,7 +47,20 @@ header #menu2 {
   left: 0;
   width: 100%;
   height: calc(100vh - 100px);
-  background-color: blue;
+  color: gray;
+  background-color: #101014;
+}
+header #menu2 ul {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 100%;
+}
+header #menu2 ul li a {
+  color: gray;
+  letter-spacing: 3px;
 }
 
 .container {
